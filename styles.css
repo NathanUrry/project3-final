@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    overflow-x: hidden;
+}
+
+.hero-background {
+    position: relative;
+    height: 100vh;
+    background-image: url('designImg/liveshow_xl.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.header-background {
+    position: relative;
+    height: 100vh;
+    background-image: url('designImg/streetsaxXL.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;  
+}
+
+.header-overlay {
+    background-color: hsla(200, 70%, 50%, .1);
+    border-radius: .3em;
+}
+
+.background-overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-container {
+    height: 60vh;
+}
+
+
+.hidden {
+    display:none;
+}
+
+
+#subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
